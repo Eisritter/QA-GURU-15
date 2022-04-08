@@ -5,7 +5,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.sleep;
 import static io.qameta.allure.Allure.step;
 
-public class WebDriverTest {
+public class WebDriverTest extends TestBase {
     @Test
     public void webTest() {
         step("Открываем GitHub", () -> {
